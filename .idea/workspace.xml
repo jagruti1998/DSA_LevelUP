@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArraysandVectors/TwoSum_TwoPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysandVectors/TwoSum_HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysandVectors/TwoSum_Bruteforce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysandVectors/TwoSum_Bruteforce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysandVectors/TwoSum_TwoPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysandVectors/TwoSum_TwoPointer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,20 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TwoSum_HashMap">
+    <configuration name="TwoSum_HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysandVectors.TwoSum_HashMap" />
+      <module name="DSA_LevelUP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysandVectors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSum_TwoPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysandVectors.TwoSum_TwoPointer" />
       <module name="DSA_LevelUP" />
@@ -58,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum_HashMap" />
         <item itemvalue="Application.TwoSum_TwoPointer" />
       </list>
     </recent_temporary>

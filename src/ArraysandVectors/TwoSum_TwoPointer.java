@@ -19,12 +19,12 @@ public class TwoSum_TwoPointer {
 
     public static int[] twoSum(int[] nums, int target) {
         // Sort the array
-        Arrays.sort(nums);
+        Arrays.sort(nums);//T(C)-O(NlogN)
 
         int left = 0;
         int right = nums.length - 1;
 
-        while (left < right) {
+        while (left < right) {  //T(C)-O(N)
             int sum = nums[left] + nums[right];
             if (sum == target) {
                 return new int[] { left, right };

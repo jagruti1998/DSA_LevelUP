@@ -13,7 +13,7 @@ public class TwoSum_Bruteforce {
         }
     }
 
-    public static int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum(int[] nums, int target) {  //T(C)- O(N2)  S(C)-O(1)
         for (int i = 0; i < nums.length; i++) {  //i will take values 0, 1, 2, and 3
             for (int j = i + 1; j < nums.length; j++) {//j will take values 1, 2, 3, and 4
                 if (nums[i] + nums[j] == target) { //the code checks if nums[i] + nums[j] equals the target value (9).

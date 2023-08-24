@@ -6,7 +6,7 @@ public class longestMountain {
         int n = arr.length;
         int largest = 0;
 
-        for (int i = 1; i <= n - 2;) {
+        for (int i = 1; i <= n - 2;) {  //time complexity is O(n)  || space complexity is O(1):
             if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
                 int count = 1;
                 int j = i;

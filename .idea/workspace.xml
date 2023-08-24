@@ -43,7 +43,7 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Triplet_TwoPointer">
+  <component name="RunManager" selected="Application.longestMountain">
     <configuration name="Triplet_TwoPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysandVectors.Triplet_TwoPointer" />
       <module name="DSA_LevelUP" />
@@ -83,8 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="longestMountain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysandVectors.longestMountain" />
+      <module name="DSA_LevelUP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysandVectors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.longestMountain" />
         <item itemvalue="Application.Triplet_TwoPointer" />
         <item itemvalue="Application.TwoSum_HashMap" />
         <item itemvalue="Application.TwoSum_TwoPointer" />

@@ -1,7 +1,7 @@
 package ArraysandVectors;
 import java.util.*;
 
-public class Triplet_BruteForce {
+public class Triplet_TwoPointer {
 public List<List<Integer>> threeSum(int[] num) {
         Set<List<Integer>> result = new HashSet<>();
         Arrays.sort(num);
@@ -28,10 +28,10 @@ public List<List<Integer>> threeSum(int[] num) {
 
         return new ArrayList<>(result);
     }
- 
+
     public static void main(String[] args) {
         int[] nums = {-1, 0, 1, 2, -1, -4};
-        Triplet_BruteForce tripletBt = new Triplet_BruteForce();
+        Triplet_TwoPointer tripletBt = new Triplet_TwoPointer();
         List<List<Integer>> result = tripletBt.threeSum(nums);
 
         for (List<Integer> triplet : result) {

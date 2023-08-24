@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArraysandVectors/Triplet_BruteForce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysandVectors/Triplet_BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysandVectors/Triplet_TwoPointer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +43,9 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Triplet_BruteForce">
-    <configuration name="Triplet_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysandVectors.Triplet_BruteForce" />
+  <component name="RunManager" selected="Application.Triplet_TwoPointer">
+    <configuration name="Triplet_TwoPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysandVectors.Triplet_TwoPointer" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
@@ -85,7 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Triplet_BruteForce" />
+        <item itemvalue="Application.Triplet_TwoPointer" />
         <item itemvalue="Application.TwoSum_HashMap" />
         <item itemvalue="Application.TwoSum_TwoPointer" />
       </list>

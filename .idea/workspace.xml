@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="" />
+    <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ArraysandVectors/LongestBand_Optimised.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,9 +42,22 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestBand_Better">
+  <component name="RunManager" selected="Application.LongestBand_Optimised">
     <configuration name="LongestBand_Better" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysandVectors.LongestBand_Better" />
+      <module name="DSA_LevelUP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysandVectors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestBand_Optimised" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysandVectors.LongestBand_Optimised" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
@@ -80,19 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum_TwoPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysandVectors.TwoSum_TwoPointer" />
-      <module name="DSA_LevelUP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysandVectors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="longestMountain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysandVectors.longestMountain" />
       <module name="DSA_LevelUP" />
@@ -108,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestBand_Optimised" />
         <item itemvalue="Application.LongestBand_Better" />
         <item itemvalue="Application.longestMountain" />
         <item itemvalue="Application.Triplet_TwoPointer" />
         <item itemvalue="Application.TwoSum_HashMap" />
-        <item itemvalue="Application.TwoSum_TwoPointer" />
       </list>
     </recent_temporary>
   </component>

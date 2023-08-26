@@ -1,7 +1,7 @@
 package ArraysandVectors;
 import java.util.Arrays;
-
-public class LongestBand {
+//better approach
+public class LongestBand_Better {
     public static int longestConsecutive(int[] nums) {
         if (nums.length == 0)
             return 0;
@@ -32,7 +32,7 @@ public class LongestBand {
 
         public static void main(String[] args) {
             int[] nums = {100, 4, 200, 1, 3, 2};
-            int longestLength = LongestBand.longestConsecutive(nums);
+            int longestLength = LongestBand_Better.longestConsecutive(nums);
             System.out.println("Longest consecutive subsequence length: " + longestLength);
         }
     }

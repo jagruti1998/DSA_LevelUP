@@ -40,9 +40,9 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestBand">
-    <configuration name="LongestBand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysandVectors.LongestBand" />
+  <component name="RunManager" selected="Application.LongestBand_Better">
+    <configuration name="LongestBand_Better" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysandVectors.LongestBand_Better" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestBand" />
+        <item itemvalue="Application.LongestBand_Better" />
         <item itemvalue="Application.longestMountain" />
         <item itemvalue="Application.Triplet_TwoPointer" />
         <item itemvalue="Application.TwoSum_HashMap" />

@@ -1,51 +1,34 @@
 package ArraysandVectors;
-import java.util.HashMap;
+
+import java.util.HashSet;
 
 public class LongestBand_Optimised {
 
-    public int longestConsecutive(int[] nums) {
-
-        HashMap<Integer, Boolean> hm = new HashMap<>();
-
-        // first make all the elements true in hashmap
-        for(int i = 0; i<nums.length;i++){
-
-            hm.put(nums[i], true);
-        }
-
-        //Then, make the elements false where we can find the element before that as they are not the starting point of the sequence.
-        for(int val : nums ){
-            if(hm.containsKey(val-1)){
-                hm.put(val, false);
+        public int longestConsecutive(int[] nums) {
+            HashSet<Integer> hs1 = new HashSet<Integer>();
+            for(int num:nums)
+            {
+                hs1.add(num);
             }
-        }
-
-        int maxStartPoint  = 0;
-        int maxLength = 0;
-
-        for(int val: nums){
-
-            if(hm.get(val) == true){
-
-                int length = 1;
-                int startingPoint = val;
-
-                while(hm.containsKey(startingPoint + length)){
-                    length++;
+            int longestStreak = 0;
+            for(int num1 : nums)
+            {
+                if(!hs1.contains(num1-1))
+                {
+                    int currentStreak = 1;
+                    int currentNum = num1;
+                    while(hs1.contains(currentNum+1))
+                    {
+                        currentStreak = currentStreak + 1;
+                        currentNum = currentNum + 1;
+                    }
+                    longestStreak = Math.max(longestStreak,currentStreak);
                 }
-
-                if(length> maxLength){
-                    maxStartPoint = startingPoint;
-                    maxLength = length;
-
-                }
-
             }
+            return longestStreak;
 
         }
 
-        return maxLength;
-    }
 
     public static void main(String[] args) {
         int[] nums = {100, 4, 200, 1, 3, 2};

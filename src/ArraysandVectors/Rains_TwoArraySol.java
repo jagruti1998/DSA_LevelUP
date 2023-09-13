@@ -1,6 +1,6 @@
 package ArraysandVectors;
 
-public class Rains {
+public class Rains_TwoArraySol {
     public int trap(int[] height) {
 
         int n = height.length;
@@ -30,7 +30,7 @@ public class Rains {
 
     public static void main(String[] args) {
         int[] height = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-        Rains rains = new Rains();
+        Rains_TwoArraySol rains = new Rains_TwoArraySol();
         int trappedWater = rains.trap(height);
         System.out.println("The amount of trapped water is: " + trappedWater);
     }

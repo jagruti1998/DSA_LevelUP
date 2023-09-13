@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArraysandVectors/Rains_Opt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysandVectors/Rains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysandVectors/Rains_TwoArraySol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysandVectors/Rains_Opt.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Rains">
+  <component name="RunManager" selected="Application.Rains_TwoArraySol">
     <configuration name="LongestBand_Better" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysandVectors.LongestBand_Better" />
       <module name="DSA_LevelUP" />
@@ -69,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysandVectors.Rains" />
+    <configuration name="Rains_TwoArraySol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysandVectors.Rains_TwoArraySol" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Rains" />
+        <item itemvalue="Application.Rains_TwoArraySol" />
         <item itemvalue="Application.LongestBand_Optimised" />
         <item itemvalue="Application.LongestBand_Better" />
         <item itemvalue="Application.longestMountain" />

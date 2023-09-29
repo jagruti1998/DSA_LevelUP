@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Sliding_Window_Problems/UniqueSubstring_OP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sliding_Window_Problems/UniqueSubstring_OP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sliding_Window_Problems/MinWindowSubstring_BF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +43,7 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniqueSubstring_OP">
-    <configuration name="ContiguousSegmentsSum (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContiguousSegmentsSum" />
-      <module name="DSA_LevelUP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MinWindowSubstring_BF">
     <configuration name="ContiguousSegmentsSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sliding_Window_Problems.ContiguousSegmentsSum" />
       <module name="DSA_LevelUP" />
@@ -65,6 +59,19 @@
     </configuration>
     <configuration name="ContiguousSegmentsSum_BF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sliding_Window_Problems.ContiguousSegmentsSum_BF" />
+      <module name="DSA_LevelUP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sliding_Window_Problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinWindowSubstring_BF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sliding_Window_Problems.MinWindowSubstring_BF" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinWindowSubstring_BF" />
         <item itemvalue="Application.UniqueSubstring_OP" />
         <item itemvalue="Application.UniqueSubstring_BF" />
         <item itemvalue="Application.ContiguousSegmentsSum_BF" />
         <item itemvalue="Application.ContiguousSegmentsSum" />
-        <item itemvalue="Application.ContiguousSegmentsSum (1)" />
       </list>
     </recent_temporary>
   </component>

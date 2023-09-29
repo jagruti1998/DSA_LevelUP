@@ -42,9 +42,9 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinWindowSubstring_BF">
-    <configuration name="ContiguousSegmentsSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sliding_Window_Problems.ContiguousSegmentsSum" />
+  <component name="RunManager" selected="Application.MinWindowSubstring_BF (1)">
+    <configuration name="ContiguousSegmentsSum_BF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sliding_Window_Problems.ContiguousSegmentsSum_BF" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
@@ -56,15 +56,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContiguousSegmentsSum_BF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sliding_Window_Problems.ContiguousSegmentsSum_BF" />
+    <configuration name="MinWindowSubstring_BF (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinWindowSubstring_BF" />
       <module name="DSA_LevelUP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sliding_Window_Problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinWindowSubstring_BF (1)" />
         <item itemvalue="Application.MinWindowSubstring_BF" />
         <item itemvalue="Application.UniqueSubstring_OP" />
         <item itemvalue="Application.UniqueSubstring_BF" />
         <item itemvalue="Application.ContiguousSegmentsSum_BF" />
-        <item itemvalue="Application.ContiguousSegmentsSum" />
       </list>
     </recent_temporary>
   </component>

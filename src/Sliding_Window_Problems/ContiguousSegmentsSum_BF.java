@@ -22,7 +22,7 @@ class ContiguousSegmentsSum_BF {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
-        int k = 8;
+        int k = 6;
 
         List<int[]> segments = findSegmentsWithSum(arr, k);
 

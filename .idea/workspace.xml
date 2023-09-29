@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sliding_Window_Problems/UniqueSubstring_BF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sliding_Window_Problems/ContiguousSegmentsSum_BF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sliding_Window_Problems/ContiguousSegmentsSum_BF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sliding_Window_Problems/UniqueSubstring_OP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

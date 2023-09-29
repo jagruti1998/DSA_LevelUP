@@ -3,42 +3,49 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 public class MinWindowSubstring_BF {
+     public String minWindow(String s, String t) {
+            if(s.length()==0 || t.length()==0 || s.length()<t.length()){
+                return new String();
+            }
+            int[] map = new int[128];
+            char[] sArray = s.toCharArray();
+            char[] tArray = t.toCharArray();
 
-    public String minWindow(String s, String t) {
-        if (s.length() < t.length()) {
-            return "";
-        }
-        Map<Character, Integer> map = new HashMap<>();
-        for (int i = 0; i < t.length(); i++) {
-            map.put(t.charAt(i), map.getOrDefault(t.charAt(i), 0) + 1);
-        }
-        int count = 0, start = 0, min_length = Integer.MAX_VALUE, min_start = 0;
-        for (int end = 0; end < s.length(); end++) {
-            if (map.containsKey(s.charAt(end))) {
-                if (map.get(s.charAt(end)) > 0) {
-                    count++;
-                }
-                map.put(s.charAt(end), map.get(s.charAt(end)) - 1);
+            for(char i : tArray){
+                map[i]++;
             }
-            if (count == t.length()) {
-                while (start < end && (!map.containsKey(s.charAt(start)) || map.get(s.charAt(start)) < 0)) {
-                    if (map.containsKey(s.charAt(start))) {
-                        map.put(s.charAt(start), map.get(s.charAt(start)) + 1);
+            int left = 0;
+            int right=0;
+            int count = t.length();
+            int minStart = 0;
+            int minLength=Integer.MAX_VALUE;
+
+            while(right<s.length()){
+                if(map[sArray[right]] >0){
+                    count--;
+                }
+                map[sArray[right]]--;
+
+                while(count==0){
+                    if(right-left+1 < minLength){
+                        minLength = right-left+1;
+                        minStart = left;
                     }
-                    start++;
+                    map[sArray[left]]++;
+                    if(map[sArray[left]] > 0){
+                        count++;
+                    }
+                    left++;
                 }
-                if (min_length > end - start + 1) {
-                    min_length = end - (min_start = start) + 1;
-                }
-                if (map.containsKey(s.charAt(start))) {
-                    map.put(s.charAt(start), map.get(s.charAt(start)) + 1);
-                }
-                count--;
-                start++;
+                right++;
             }
+            if(minLength>s.length()){
+                return new String();
+            }else{
+                return s.substring(minStart, minStart+minLength);
+            }
+
         }
-        return min_length == Integer.MAX_VALUE ? "" : s.substring(min_start, min_start + min_length);
-    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

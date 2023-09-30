@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearchImplementation.java" afterDir="false" />
-    </list>
+    <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,13 +40,13 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinWindowSubstring_BF (1)">
-    <configuration name="ContiguousSegmentsSum_BF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sliding_Window_Problems.ContiguousSegmentsSum_BF" />
+  <component name="RunManager" selected="Application.BinarySearchImplementation">
+    <configuration name="BinarySearchImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.BinarySearchImplementation" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sliding_Window_Problems.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchImplementation" />
         <item itemvalue="Application.MinWindowSubstring_BF (1)" />
         <item itemvalue="Application.MinWindowSubstring_BF" />
         <item itemvalue="Application.UniqueSubstring_OP" />
         <item itemvalue="Application.UniqueSubstring_BF" />
-        <item itemvalue="Application.ContiguousSegmentsSum_BF" />
       </list>
     </recent_temporary>
   </component>

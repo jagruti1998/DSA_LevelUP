@@ -43,7 +43,20 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RotatedSearch">
+  <component name="RunManager" selected="Application.AggressiveCows">
+    <configuration name="AggressiveCows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.AggressiveCows" />
+      <module name="DSA_LevelUP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySearchImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch.BinarySearchImplementation" />
       <module name="DSA_LevelUP" />
@@ -83,13 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinWindowSubstring_BF (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinWindowSubstring_BF" />
-      <module name="DSA_LevelUP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RotatedSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch.RotatedSearch" />
       <module name="DSA_LevelUP" />
@@ -105,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AggressiveCows" />
         <item itemvalue="Application.RotatedSearch" />
         <item itemvalue="Application.FrequencyCount" />
         <item itemvalue="Application.ColorGame" />
         <item itemvalue="Application.BinarySearchImplementation" />
-        <item itemvalue="Application.MinWindowSubstring_BF (1)" />
       </list>
     </recent_temporary>
   </component>

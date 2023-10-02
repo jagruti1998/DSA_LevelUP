@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class Fizzbuzz_Arraylist {
 
-    public List<String> fizzBuzz(int n) {
+    public List<String> fizzBuzz(int n) {     //T(C)=O(n)   S(C)=O(n)
         ArrayList<String> ans = new ArrayList<>();
         for (int i = 1; i <= n; i++) {
             if (i % 3 == 0 && i % 5 == 0) {

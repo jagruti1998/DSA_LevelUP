@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Daily_Challenge/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Daily_Challenge/ReverseString2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Daily_Challenge/ReverseWordsInString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseString2">
+  <component name="RunManager" selected="Application.ReverseWordsInString">
     <configuration name="Fizzbuzz_Arraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysandVectors.Fizzbuzz_Arraylist" />
       <module name="DSA_LevelUP" />
@@ -64,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumValuePartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.MaximumValuePartition" />
+    <configuration name="ReverseString2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Daily_Challenge.ReverseString2" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="Daily_Challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Daily_Challenge.ReverseString2" />
+    <configuration name="ReverseWordsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Daily_Challenge.ReverseWordsInString" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseWordsInString" />
         <item itemvalue="Application.ReverseString2" />
         <item itemvalue="Application.Fizzbuzz_Arraylist" />
         <item itemvalue="Application.maxpartition" />
         <item itemvalue="Application.MaximumValuePartition (1)" />
-        <item itemvalue="Application.MaximumValuePartition" />
       </list>
     </recent_temporary>
   </component>

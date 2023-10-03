@@ -43,7 +43,20 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseWordsInString">
+  <component name="RunManager" selected="Application.ColorGame">
+    <configuration name="ColorGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Daily_Challenge.ColorGame" />
+      <module name="DSA_LevelUP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Daily_Challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fizzbuzz_Arraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysandVectors.Fizzbuzz_Arraylist" />
       <module name="DSA_LevelUP" />
@@ -53,13 +66,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumValuePartition (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumValuePartition" />
-      <module name="DSA_LevelUP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ColorGame" />
         <item itemvalue="Application.ReverseWordsInString" />
         <item itemvalue="Application.ReverseString2" />
         <item itemvalue="Application.Fizzbuzz_Arraylist" />
         <item itemvalue="Application.maxpartition" />
-        <item itemvalue="Application.MaximumValuePartition (1)" />
       </list>
     </recent_temporary>
   </component>

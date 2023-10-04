@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Daily_Challenge/DesignHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Daily_Challenge/DesignHashMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,19 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/prade/Desktop/project/Daily_Challenge"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/prade/Desktop/project/Daily_Challenge&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumIdenticalPairs">
+  <component name="RunManager" selected="Application.DesignHashMap">
     <configuration name="ColorGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Daily_Challenge.ColorGame" />
       <module name="DSA_LevelUP" />
@@ -57,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fizzbuzz_Arraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysandVectors.Fizzbuzz_Arraylist" />
+    <configuration name="DesignHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Daily_Challenge.DesignHashMap" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysandVectors.*" />
+          <option name="PATTERN" value="Daily_Challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignHashMap" />
         <item itemvalue="Application.NumIdenticalPairs" />
         <item itemvalue="Application.ReverseString2" />
         <item itemvalue="Application.ReverseWordsInString" />
         <item itemvalue="Application.ColorGame" />
-        <item itemvalue="Application.Fizzbuzz_Arraylist" />
       </list>
     </recent_temporary>
   </component>

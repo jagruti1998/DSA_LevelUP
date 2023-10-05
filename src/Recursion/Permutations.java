@@ -1,45 +1,48 @@
 package Recursion;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Permutations {
-
-    public List<String> findPermutations(String input) {
-        List<String> result = new ArrayList<>();
-        char[] chars = input.toCharArray();
-        permute(chars, 0, result);
-        return result;
-    }
-
-    private void permute(char[] chars, int currentIndex, List<String> result) {
-        if (currentIndex == chars.length - 1) {
-            result.add(new String(chars));
+    public void permutations(List<Integer> nums, List<List<Integer>> ans, List<Integer> ds, int[] freq) {
+        if (ds.size() == nums.size()) {
+            ans.add(new ArrayList<>(ds));
             return;
         }
-
-        for (int i = currentIndex; i < chars.length; i++) {
-            // Swap the current character with the character at index i
-            char temp = chars[currentIndex];
-            chars[currentIndex] = chars[i];
-            chars[i] = temp;
-
-            // Recursively generate permutations for the remaining characters
-            permute(chars, currentIndex + 1, result);
-
-            // Backtrack by restoring the original order
-            temp = chars[currentIndex];
-            chars[currentIndex] = chars[i];
-            chars[i] = temp;
+        for (int i = 0; i < nums.size(); i++) {
+            if (freq[i] == 0) {
+                ds.add(nums.get(i));
+                freq[i]++;
+                permutations(nums, ans, ds, freq);
+                freq[i]--;
+                ds.remove(ds.size() - 1);
+            }
         }
+    }
+
+    public List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>();
+        List<Integer> ds = new ArrayList<>();
+        int[] freq = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            freq[i] = 0;
+        }
+        List<Integer> numsList = new ArrayList<>();
+        for (int num : nums) {
+            numsList.add(num);
+        }
+        permutations(numsList, ans, ds, freq);
+        return ans;
     }
 
     public static void main(String[] args) {
-        Permutations stringPermutations = new Permutations();
-        String input = "abc"; // Change this to your desired input string
-        List<String> permutations = stringPermutations.findPermutations(input);
+        Permutations solution = new Permutations();
+        int[] nums = {1, 2, 3}; // Change this to your desired input array
+
+        List<List<Integer>> permutations = solution.permute(nums);
 
         // Print the permutations
-        for (String permutation : permutations) {
+        for (List<Integer> permutation : permutations) {
             System.out.println(permutation);
         }
     }

@@ -26,6 +26,29 @@ public class CreatingLL {
         }
     }
 
+    // Insert a node at a specific position in the linked list
+    void insertInMiddle(int data, int pos) {
+        if (pos == 0) {
+            insertAtHead(data); // Insert at the head if position is 0
+        } else {
+            Node temp = head;
+            for (int i = 1; i < pos; i++) {
+                if (temp == null) {
+                    System.out.println("Position is out of bounds.");
+                    return;
+                }
+                temp = temp.next;
+            }
+            if (temp == null) {
+                System.out.println("Position is out of bounds.");
+                return;
+            }
+            Node newNode = new Node(data);
+            newNode.next = temp.next;
+            temp.next = newNode;
+        }
+    }
+
     // Print the linked list
     void printLL(Node head) {
         Node current = head;
@@ -38,11 +61,13 @@ public class CreatingLL {
 
     public static void main(String args[]) {
         CreatingLL cl = new CreatingLL();
-        cl.insertAtHead(4); // Call the insertAtHead method on the cl object
-        cl.insertAtHead(3); // Call the insertAtHead method on the cl object
-        cl.insertAtHead(2); // Call the insertAtHead method on the cl object
-        cl.insertAtHead(1); // Call the insertAtHead method on the cl object
-        cl.insertAtHead(0); // Call the insertAtHead method on the cl object
-        cl.printLL(cl.head); // Call the printLL method to print the linked list
+        cl.insertAtHead(4);
+        cl.insertAtHead(3);
+        cl.insertAtHead(2); 
+        cl.insertAtHead(1);
+        cl.insertAtHead(0);
+
+        cl.insertInMiddle(10, 3); // Insert 10 at position 3
+        cl.printLL(cl.head);
     }
 }

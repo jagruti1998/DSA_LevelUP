@@ -59,15 +59,35 @@ public class CreatingLL {
         System.out.println();
     }
 
+    // Reverse the linked list
+    Node reverse(Node head) {
+        Node prev = null;
+        Node current = head;
+        Node next = null;
+
+        while (current != null) {
+            next = current.next; // Store the next node
+            current.next = prev; // Reverse the current node's pointer
+            prev = current; // Move prev to the current node
+            current = next; // Move current to the next node
+        }
+
+        return prev; // New head of the reversed list
+    }
+
     public static void main(String args[]) {
         CreatingLL cl = new CreatingLL();
         cl.insertAtHead(4);
         cl.insertAtHead(3);
-        cl.insertAtHead(2); 
+        cl.insertAtHead(2);
         cl.insertAtHead(1);
         cl.insertAtHead(0);
 
         cl.insertInMiddle(10, 3); // Insert 10 at position 3
         cl.printLL(cl.head);
+
+        // Reverse the linked list
+        cl.head = cl.reverse(cl.head);
+        cl.printLL(cl.head); // Print the reversed linked list
     }
 }

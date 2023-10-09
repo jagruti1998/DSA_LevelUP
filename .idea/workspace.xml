@@ -44,7 +44,33 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenerateParentheses">
+  <component name="RunManager" selected="Application.CreatingLL">
+    <configuration name="CreatingLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.CreatingLL" />
+      <module name="DSA_LevelUP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrequencyCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.FrequencyCount" />
+      <module name="DSA_LevelUP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.GenerateParentheses" />
       <module name="DSA_LevelUP" />
@@ -58,34 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueenChess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.NQueenChess" />
-      <module name="DSA_LevelUP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.Permutations" />
-      <module name="DSA_LevelUP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhoneKeypad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.PhoneKeypad" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreatingLL" />
+        <item itemvalue="Application.FrequencyCount" />
         <item itemvalue="Application.GenerateParentheses" />
         <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.Sudoku" />
-        <item itemvalue="Application.NQueenChess" />
-        <item itemvalue="Application.PhoneKeypad" />
       </list>
     </recent_temporary>
   </component>

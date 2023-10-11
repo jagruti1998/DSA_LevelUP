@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class CreatingLL {
+public class  CreatingLL {
 
     // Define a Node class
     class Node {

@@ -3,7 +3,7 @@ package LinkedList;
 public class  CreatingLL {
 
     // Define a Node class
-    class Node {
+    static class Node {
         int data;
         Node next;
 

@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Daily_Challenge/AlexaDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Daily_Challenge/PalindromeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/NumberOfProvinces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/NonRepeatingChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stacks/NextGreaterElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/NonRepeatingChars_OPT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/NonRepeatingChars_OPT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NonRepeatingChars_BF">
+  <component name="RunManager" selected="Application.NonRepeatingChars_OPT">
     <configuration name="AlexaDevice (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AlexaDevice" />
       <module name="DSA_LevelUP" />
@@ -56,12 +51,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlexaDevice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Daily_Challenge.AlexaDevice" />
+    <configuration name="NonRepeatingChars_BF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.NonRepeatingChars_BF" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Daily_Challenge.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonRepeatingChars_BF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.NonRepeatingChars_BF" />
+    <configuration name="NonRepeatingChars_OPT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.NonRepeatingChars_OPT" />
       <module name="DSA_LevelUP" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NonRepeatingChars_OPT" />
         <item itemvalue="Application.NonRepeatingChars_BF" />
         <item itemvalue="Application.TwoSum_Bruteforce" />
         <item itemvalue="Application.NumberOfProvinces" />
         <item itemvalue="Application.AlexaDevice (1)" />
-        <item itemvalue="Application.AlexaDevice" />
       </list>
     </recent_temporary>
   </component>

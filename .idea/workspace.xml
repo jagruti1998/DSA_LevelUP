@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="963c594c-8ba7-4a2b-a62d-345ce2fe5c67" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/String/NonRepeatingChars_OPT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/NonRepeatingChars_OPT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/LongestWord_BF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +44,16 @@
       <recent name="ArraysandVectors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NonRepeatingChars_OPT">
-    <configuration name="AlexaDevice (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlexaDevice" />
+  <component name="RunManager" selected="Application.LongestWord_BF">
+    <configuration name="LongestWord_BF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.LongestWord_BF" />
       <module name="DSA_LevelUP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestWord_BF" />
         <item itemvalue="Application.NonRepeatingChars_OPT" />
         <item itemvalue="Application.NonRepeatingChars_BF" />
         <item itemvalue="Application.TwoSum_Bruteforce" />
         <item itemvalue="Application.NumberOfProvinces" />
-        <item itemvalue="Application.AlexaDevice (1)" />
       </list>
     </recent_temporary>
   </component>

@@ -17,19 +17,27 @@ public class ValidPalindrome {
 
     // Corrected: Make the method static to be called from the main method
     public static boolean isPalindrome(String s) {
-        // Corrected: Assign the result of toLowerCase() and replaceAll() back to the string
+        // Transform the input string to lowercase and remove non-alphanumeric characters
         s = s.toLowerCase().replaceAll("[^a-z0-9]", "");
 
-        int i = 0, j = s.length() - 1;
+        // Convert the modified string to a character array for efficient character access
+        char[] chars = s.toCharArray();
 
+        // Initialize pointers for comparison
+        int i = 0, j = chars.length - 1;
+
+        // Compare characters from both ends towards the middle
         while (i <= j) {
-            if (s.charAt(i) != s.charAt(j)) {
+
+            // If a mismatch is found, the string is not a palindrome
+            if (chars[i] != chars[j]) {
                 return false;
             }
             i++;
             j--;
         }
 
+        // If the loop completes without returning false, the string is a palindrome
         return true;
     }
 }

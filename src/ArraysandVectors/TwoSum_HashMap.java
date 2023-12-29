@@ -20,17 +20,12 @@ public class TwoSum_HashMap {
                 Map<Integer, Integer> map = new HashMap<>();
                 int n = nums.length;
 
-                for (int i = 0; i < n; i++) {
-                    int num = nums[i];
-                    int moreNeeded = target - num;
-
-                    if (map.containsKey(moreNeeded)) {
-                        return new int[] { map.get(moreNeeded), i };
+                for (int i = 0; i < nums.length; i++) {
+                    if (map.containsKey(target - nums[i])) {
+                        return new int[] {map.get(target - nums[i]), i};
                     }
-
-                    map.put(num, i);
+                    map.put(nums[i], i);
                 }
-
-                return new int[] { -1, -1 };
+                return null;
             }
         }

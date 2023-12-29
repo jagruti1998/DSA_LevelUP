@@ -18,7 +18,6 @@ public class TwoSum_HashMap {
 
             public static int[] twoSum(int[] nums, int target) {   //T(C)-O(N)  S(C)-O(N)
                 Map<Integer, Integer> map = new HashMap<>();
-                int n = nums.length;
 
                 for (int i = 0; i < nums.length; i++) {
                     if (map.containsKey(target - nums[i])) {
